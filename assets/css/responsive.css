@@ -6,8 +6,8 @@
     .nav>.nav-btn {
         display: inline-block;
         position: absolute;
-        right: 0;
-        top: 15px;
+        right: 15px;
+        top: 30px;
         padding-top: 0.2rem;
         z-index: 2;
     }
@@ -24,7 +24,8 @@
         display: block;
         width: 25px;
         height: 10px;
-        border-top: 2px solid #eee;
+        border-top: 2px solid #0e2c2e;
+        filter: invert(1);
     }
 
     .nav>.nav-list {
@@ -50,7 +51,8 @@
     .nav>#nav-check:checked~.nav-list {
         height: calc(50vh - 0px);
     }
+
     .nav>.nav-header {
-        padding-left:0;
+        padding-left: 0;
     }
 }

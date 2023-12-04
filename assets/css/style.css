@@ -65,12 +65,14 @@ h1 {
   display: inline-block;
   border-radius: 4px;
   position: relative;
+  border: 1px solid transparent;
 }
 
 .button:hover {
-  background-color: var(--secondary-color) !important;
+ border: 1px solid #0e2c2e;
   transition: 0.3s;
-  color: #fff !important;
+  color: #000 !important;
+  background-color: #fff;
 }
 
 /* /header/ */
@@ -212,6 +214,7 @@ header {
   line-height: 26px;
   color: var(--secondary-color);
 }
+
 /* 
 Pourquoi choisir Casinosciti pour
  les recommandations des meilleures 
@@ -258,12 +261,15 @@ Pourquoi choisir Casinosciti pour
 
 .hotel_card img {
   width: 100%;
+  height: 360px;
+  object-fit: cover;
 }
+
 .hotel_card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 5px;
+  border-radius: 15px;
   height: 100%;
-
+  overflow: hidden;
 }
 
 
