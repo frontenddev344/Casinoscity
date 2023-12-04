@@ -171,7 +171,7 @@ header {
 
 .sub_banner img {
   width: 100%;
-  height: 700px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -186,6 +186,7 @@ header {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
+  margin-top: 70px;
 }
 
 .sub_banner::before {
