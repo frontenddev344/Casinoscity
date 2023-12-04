@@ -58,7 +58,7 @@ h1 {
 .heading_h2 {
   font-size: 30px;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .container {
@@ -84,11 +84,11 @@ h1 {
   background-repeat: no-repeat;
   background-position: 0%;
   -webkit-transition: background 300ms ease-in-out;
-  transition: background 0.3s ease-in-out;
+  transition: background 0.5s ease-in-out;
 }
 
 .button:hover {
-  transition: 0.3s;
+  transition: 0.5s;
   color: #000 !important;
   background-color: #fff;
   background-position: 110%;
