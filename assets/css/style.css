@@ -1,10 +1,12 @@
 html,
 body,
 #banner {
-  min-height: 100vh;
   margin: 0;
 }
-
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
 body {
   font-family: 'Lato', sans-serif;
 
@@ -69,7 +71,7 @@ h1 {
 }
 
 .button:hover {
- border: 1px solid #0e2c2e;
+  border: 1px solid #0e2c2e;
   transition: 0.3s;
   color: #000 !important;
   background-color: #fff;
@@ -157,9 +159,9 @@ header {
 
 .sub_banner img {
   width: 100%;
-  height: 100vh;
+  height: 700px;
+  object-fit: cover;
 }
-
 .sub_banner {
   position: relative;
 }
@@ -417,7 +419,3 @@ Pourquoi choisir Casinosciti pour
 
 
 
-html body {
-  overflow-x: hidden !important;
-  width: 100% !important;
-}
