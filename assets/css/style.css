@@ -1,0 +1,417 @@
+html,
+body,
+#banner {
+  min-height: 100vh;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+
+}
+
+.section {
+  padding: 80px 0;
+}
+
+:root {
+  --primary-color: #0e2c2e;
+  --secondary-color: #565656;
+  --bg_color: #565656;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+p {
+
+  color: #565656;
+  line-height: 28px;
+}
+
+h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.heading_h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px !important;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  background: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 4px;
+  position: relative;
+}
+
+.button:hover {
+  background-color: var(--secondary-color) !important;
+  transition: 0.3s;
+  color: #fff !important;
+}
+
+/* /header/ */
+
+
+.nav {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px 60px;
+  text-transform: uppercase;
+}
+
+.nav>.nav-header {
+  flex: 0.95;
+  padding-left: 1rem;
+}
+
+.nav>.nav-header>.nav-title {
+  font-size: 22px;
+  color: #000;
+}
+
+.nav>.nav-list {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 0;
+}
+
+.nav>.nav-list>li {
+  list-style-type: none;
+}
+
+.nav>.nav-list>li a {
+  text-decoration: none;
+  color: #bbb;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+.nav>.nav-list>li a.active {
+  color: #0e2c2e
+}
+
+
+
+.nav>.nav-list>li a:hover {
+  color: #0e2c2e;
+
+}
+
+.nav>#nav-check {
+  display: none;
+}
+
+header {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav-title a img {
+  max-width: 120px;
+}
+
+
+
+
+/* banner */
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.sub_banner img {
+  width: 100%;
+  height: 100vh;
+}
+
+.sub_banner {
+  position: relative;
+}
+
+.sub_banner_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.sub_banner::before {
+  position: absolute;
+  content: '';
+  background: #000000a8;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Destinations en Vedette  */
+
+.why_card img {
+  max-width: 60px;
+}
+
+.whychooseus h2 {
+  margin-bottom: 60px;
+  color: var(--primary-color);
+}
+
+.why_card h3 {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.why_card {
+  text-align: center;
+  border-radius: 5px;
+  height: 100%;
+  padding: 30px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #0e2c2e;
+  ;
+}
+
+.why_card p {
+  line-height: 26px;
+  color: var(--secondary-color);
+}
+/* 
+Pourquoi choisir Casinosciti pour
+ les recommandations des meilleures 
+ villes de casino  */
+
+.journey-begins {
+  background: url("../images/pattern.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 60px 15px;
+}
+
+.journey-begins:after {
+  content: "";
+  background: rgb(245 245 245 / 90%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.journey-inner {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.journey-inner h2 {
+  margin-bottom: 20px;
+}
+
+/* Casinos les plus recommandés*/
+
+
+
+
+.hotel_card .hotel_des {
+  padding: 30px 20px;
+}
+
+.hotel_card img {
+  width: 100%;
+}
+.hotel_card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
