@@ -306,3 +306,7 @@ Journey-begins */
   height: 100%;
   padding: 30px 20px;
 }
+.hotel_f_card i {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
