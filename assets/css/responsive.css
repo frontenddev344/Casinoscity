@@ -90,4 +90,18 @@
     .right_side_vegas{
         text-align: center;
     }
+    .casino_in_monaco.section .row {
+      flex-direction: column-reverse;
+      text-align: center;
+  }
+  .right_monaco a img {
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width:767px)
+{
+  .privacy-term-sec .heading_h2 {
+    font-size: 24px;
+}
 }
