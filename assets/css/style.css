@@ -599,3 +599,41 @@ singapore */
 .singapore_bottom p{
   font-size: 20px;
 }
+/*****contact*****/
+.contact-section {
+  background: var(--bg_color);
+  padding: 60px 0;
+  }
+  
+  .contact-content h3 {
+  font-size: 20px;
+  color: var(--primary-color);
+  }
+  
+  .contact-content a {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  background-color: rgb(255 255 0 / 30%);
+  }
+  
+  .contact-form input, .contact-form textarea {
+  margin-bottom: 20px;
+  padding: 12px 10px;
+  box-shadow: 0 0 9px 2px rgb(0 0 0 / 10%);
+  resize: none;
+  }
+  
+  .contact-form .button {
+  width: 200px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus{
+    outline:none;
+    box-shadow:none;
+    border: 1px solid var(--primary-color);
+  }
+  
+  .contact-form input::placeholder, .contact-form textarea::placeholder{
+    opacity:0.6;
+  }
