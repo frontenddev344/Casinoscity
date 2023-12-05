@@ -487,3 +487,37 @@ footer ul.nav-list {
   background-color: var(--bg_color);
   box-shadow:unset;
 }
+/****************privacy policy**********************/
+section.privacy-term-sec {
+  padding: 200px 0 60px;
+}
+
+.privacy-term-sec .heading_h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 3px dashed var(--primary-color);
+  border-radius: 22px;
+  padding-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+.privacy-term-content h3 {
+  font-size: 20px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.privacy-term-content ul li {
+  padding-bottom: 10px;
+}
+.right_side_banner.text-center img {
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0px #737373;
+}
+div#banner h1, div#banner h2 {
+  color: #fff;
+}
