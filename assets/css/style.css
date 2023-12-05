@@ -189,6 +189,7 @@ header {
   text-align: center;
   color: #fff;
   margin-top: 70px;
+  width: 100%;
 }
 
 .sub_banner::before {
@@ -342,7 +343,6 @@ Journey-begins */
 }
 
 footer ul {
-  padding-left: 5px;
   padding-top: 10px;
 }
 
@@ -406,6 +406,7 @@ footer .row {
 
 footer ul.nav-list {
   margin-bottom: 25px;
+  flex-wrap: wrap;
 }
 
 /****cookies*****/
@@ -527,4 +528,74 @@ div#banner h1, div#banner h2 {
 .macau_casinos_section .right_monaco a img {
   border-radius: 50%;
   width: 300px;
+}
+
+
+.casino_page_section .right_monaco {
+  text-align: right;
+  height: 100%;
+}
+.casino_wrapper {
+  border-radius: 0px 60px 60px 0px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* padding: 30px 20px; */
+}
+
+
+.casino_page_section .right_monaco a img
+{
+  border-radius: 0px 60px 60px 0px;
+  height: 100%;
+}
+.casino_wrapper .left_monaco h2 {
+  position: relative;
+}
+.casino_wrapper .left_monaco h2::before {
+  position: absolute;
+  content: '';
+  width: 150px;
+  height: 2px;
+  background: var(--primary-color);
+  bottom: -5px;
+  border-radius: 15px;
+}
+.casino_wrapper .left_monaco {
+  padding: 20px;
+}
+.casino_page_section{
+  background-color:whitesmoke;
+}
+
+/* 
+singapore */
+
+.inner_mid_singapore {
+  padding: 20px;
+  height: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+}
+.inner_mid_singapore h2 {
+  margin-top: 20px;
+}
+
+.sand_resorts.section h4 {
+  margin-bottom: 20px;
+}
+.sand_resort_inner ul li {
+  margin-bottom: 16px;
+}
+.sand_resort_inner ul{
+  padding: 0;
+}
+.sand_resorts{
+  background-color: var(--bg_color);
+}
+.singapore_bottom{
+  background-color: whitesmoke;
+}
+.singapore_bottom p{
+  font-size: 20px;
 }
