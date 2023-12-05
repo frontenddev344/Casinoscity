@@ -78,7 +78,7 @@
     }
 
     .nav>#nav-check:checked~.nav-list {
-        height: calc(50vh - 0px);
+       height:700px;
     }
 
     .nav>.nav-header {
