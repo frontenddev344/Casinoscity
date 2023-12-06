@@ -224,10 +224,14 @@ header {
   border-radius: 5px;
   height: 100%;
   padding: 30px 20px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: 1px solid #0e2c2e;
-  ;
+  transition: all 0.5s;
 }
+.why_card:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ background-color: var(--bg_color);
+}
+
 
 .why_card p {
   line-height: 26px;
@@ -637,3 +641,14 @@ singapore */
   .contact-form input::placeholder, .contact-form textarea::placeholder{
     opacity:0.6;
   }
+  .contact-content p span {
+    background: #e9eea3;
+}
+
+
+  /* new testing changes */
+
+  .home_banner img {
+    height: 600px;
+}
+
