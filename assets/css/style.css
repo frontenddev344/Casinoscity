@@ -130,17 +130,17 @@ h1 {
 
 .nav>.nav-list>li a {
   text-decoration: none;
-  color: #bbb;
+  color: var(--primary-color);
   cursor: pointer;
   font-weight: 600;
 }
 
 .nav>.nav-list>li a.active {
-  color: #0e2c2e
+  color: #bbb
 }
 
 .nav>.nav-list>li a:hover {
-  color: #0e2c2e;
+  color: #bbb;
 
 }
 
