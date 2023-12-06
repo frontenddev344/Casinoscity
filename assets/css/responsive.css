@@ -122,6 +122,9 @@
   h1 {
     font-size: 34px;
   }
+  .lower_banner.section .left_side_banner {
+    margin-bottom: 35px;
+}
 }
 
 
