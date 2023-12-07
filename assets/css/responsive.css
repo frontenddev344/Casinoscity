@@ -70,7 +70,8 @@
     left: 0;
     overflow: hidden;
     padding-left: 20px;
-  }
+    padding-top: 110px;
+}
 
   .nav>.nav-list>li {
     width: 100%;
@@ -83,7 +84,9 @@
 
   .nav>.nav-header {
     padding-left: 0;
-  }
+    position: relative;
+    z-index: 2;
+}
 
   .best_casino_vages img {
     margin-bottom: 40px;
@@ -112,6 +115,10 @@
     left: 0;
     right: 0;
   }
+
+  .section {
+    padding: 50px 0;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -122,9 +129,10 @@
   h1 {
     font-size: 34px;
   }
+
   .lower_banner.section .left_side_banner {
     margin-bottom: 35px;
-}
+  }
 }
 
 

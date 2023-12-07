@@ -227,9 +227,10 @@ header {
   border: 1px solid #0e2c2e;
   transition: all 0.5s;
 }
-.why_card:hover{
+
+.why_card:hover {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
- background-color: var(--bg_color);
+  background-color: var(--bg_color);
 }
 
 
@@ -467,6 +468,7 @@ footer ul.nav-list {
 .casino_in_monaco .odd_casino_monaco {
   flex-direction: row-reverse;
 }
+
 .right_monaco a img {
   height: 300px;
   width: 400px;
@@ -478,8 +480,9 @@ footer ul.nav-list {
 
 .accordion-button:focus {
   box-shadow: none;
-  border-color: rgba(0,0,0,.125);
+  border-color: rgba(0, 0, 0, .125);
 }
+
 .accordion-body h4 {
   font-size: 20px;
 }
@@ -487,11 +490,13 @@ footer ul.nav-list {
 .accordion h3 {
   margin-bottom: 0;
 }
+
 .accordion-button:not(.collapsed) {
   color: var(--primary-color);
   background-color: var(--bg_color);
-  box-shadow:unset;
+  box-shadow: unset;
 }
+
 /****************privacy policy**********************/
 section.privacy-term-sec {
   padding: 200px 0 60px;
@@ -519,11 +524,14 @@ section.privacy-term-sec {
 .privacy-term-content ul li {
   padding-bottom: 10px;
 }
+
 .right_side_banner.text-center img {
   border-radius: 8px;
   box-shadow: 0 0 8px 0px #737373;
 }
-div#banner h1, div#banner h2 {
+
+div#banner h1,
+div#banner h2 {
   color: #fff;
 }
 
@@ -539,6 +547,7 @@ div#banner h1, div#banner h2 {
   text-align: right;
   height: 100%;
 }
+
 .casino_wrapper {
   border-radius: 0px 60px 60px 0px;
   background-color: #fff;
@@ -548,14 +557,15 @@ div#banner h1, div#banner h2 {
 }
 
 
-.casino_page_section .right_monaco a img
-{
+.casino_page_section .right_monaco a img {
   border-radius: 0px 60px 60px 0px;
   height: 100%;
 }
+
 .casino_wrapper .left_monaco h2 {
   position: relative;
 }
+
 .casino_wrapper .left_monaco h2::before {
   position: absolute;
   content: '';
@@ -565,11 +575,13 @@ div#banner h1, div#banner h2 {
   bottom: -5px;
   border-radius: 15px;
 }
+
 .casino_wrapper .left_monaco {
   padding: 20px;
 }
-.casino_page_section{
-  background-color:whitesmoke;
+
+.casino_page_section {
+  background-color: whitesmoke;
 }
 
 /* 
@@ -581,6 +593,7 @@ singapore */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 15px;
 }
+
 .inner_mid_singapore h2 {
   margin-top: 20px;
 }
@@ -588,67 +601,82 @@ singapore */
 .sand_resorts.section h4 {
   margin-bottom: 20px;
 }
+
 .sand_resort_inner ul li {
   margin-bottom: 16px;
 }
-.sand_resort_inner ul{
+
+.sand_resort_inner ul {
   padding: 0;
 }
-.sand_resorts{
+
+.sand_resorts {
   background-color: var(--bg_color);
 }
-.singapore_bottom{
+
+.singapore_bottom {
   background-color: whitesmoke;
 }
-.singapore_bottom p{
+
+.singapore_bottom p {
   font-size: 20px;
 }
+
 /*****contact*****/
 .contact-section {
   background: var(--bg_color);
   padding: 60px 0;
-  }
-  
-  .contact-content h3 {
+}
+
+.contact-content h3 {
   font-size: 20px;
   color: var(--primary-color);
-  }
-  
-  .contact-content a {
+}
+
+.contact-content a {
   display: inline-block;
   margin-bottom: 20px;
   color: var(--primary-color);
   background-color: rgb(255 255 0 / 30%);
-  }
-  
-  .contact-form input, .contact-form textarea {
+}
+
+.contact-form input,
+.contact-form textarea {
   margin-bottom: 20px;
   padding: 12px 10px;
   box-shadow: 0 0 9px 2px rgb(0 0 0 / 10%);
   resize: none;
-  }
-  
-  .contact-form .button {
+}
+
+.contact-form .button {
   width: 200px;
-  }
-  
-  .contact-form input:focus, .contact-form textarea:focus{
-    outline:none;
-    box-shadow:none;
-    border: 1px solid var(--primary-color);
-  }
-  
-  .contact-form input::placeholder, .contact-form textarea::placeholder{
-    opacity:0.6;
-  }
-  .contact-content p span {
-    background: #e9eea3;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid var(--primary-color);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  opacity: 0.6;
+}
+
+.contact-content p span {
+  background: #e9eea3;
 }
 
 
-  /* new testing changes */
+/* new testing changes */
 
-  .home_banner img {
-    height: 600px;
+.home_banner img {
+  height: 600px;
 }
 
+.inner_mid_singapore img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
